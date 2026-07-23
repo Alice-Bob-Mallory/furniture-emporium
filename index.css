@@ -1,0 +1,28 @@
+/*Type Selectors - All elements of a given type. Here we are applying changes to all <article/> 
+and <button/> elements
+- A combination of margin and padding have been used for visual spacing between elements.
+- The product cards have a different background color from the rest of the page.
+*/
+article {
+  font-size: large;
+  color: white;
+  margin: 10%;
+  padding: 2px;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: yellow;
+}
+
+button:hover {
+  background-color: crimson;
+}
+
+/*Rule that uses a Class Selector*. In the HTML we have added class attributes
+to all product names*/
+
+.ProductName {
+  color: chocolate;
+}
