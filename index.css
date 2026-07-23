@@ -1,0 +1,12 @@
+/*Type Selector - All elements of a given type. Here we are applying changes to all <article/> 
+elements*/
+article {
+  font-size: large;
+  color: blueviolet;
+}
+
+/*Rule that uses a Class Selector*. In the HTML we have added class attributes
+to all product names*/
+.ProductName {
+  color: chocolate;
+}
